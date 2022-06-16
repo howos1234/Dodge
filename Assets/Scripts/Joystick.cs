@@ -30,14 +30,14 @@ public class Joystick : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
     
     public void OnBeginDrag(PointerEventData eventData)
     {
-        Debug.Log("OnBeginDrag");
+        //Debug.Log("OnBeginDrag");
         isDragging = true;
     }
 
     //드래그 중일떄 호출
     public void OnDrag(PointerEventData eventData)
     {
-       Debug.Log("onDrag");
+       //Debug.Log("onDrag");
        var p = eventData.position;
        var d = p - pointerDownPosition;// 조작방향 벡터
 
@@ -49,14 +49,14 @@ public class Joystick : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
     //드래그 끝났을 떄 호출
     public void OnEndDrag(PointerEventData eventData)
     {
-        Debug.Log("onendDrag");
+        //Debug.Log("onendDrag");
         isDragging = false;
     }
 
     // 터치 시작됬을 떄 호출
     public void OnPointerDown(PointerEventData eventData)
     {
-        Debug.Log("OnPointerDown");
+        //Debug.Log("OnPointerDown");
         pointerDownPosition = eventData.position;
         
     }
@@ -64,7 +64,7 @@ public class Joystick : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
     //터치가 끝났을 때
     public void OnPointerUp(PointerEventData eventData)
     {
-       Debug.Log("OnPointerUp");
+      // Debug.Log("OnPointerUp");
     }
 
     // Start is called before the first frame update

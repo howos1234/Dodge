@@ -1,7 +1,7 @@
 
 using UnityEngine;
 
-public class clockpivot2 : MonoBehaviour
+public class ClockPivot2 : MonoBehaviour
 {
     public GameObject earthPivot;
     public float speed;

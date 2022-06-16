@@ -40,9 +40,7 @@
      <Compile Include="Assets\Scripts\VirtualPivot.cs" />
      <Compile Include="Assets\Scripts\EarthPivot.cs" />
      <Compile Include="Assets\Scripts\VirtualPivotTest.cs" />
-     <Compile Include="Assets\Scripts\solar.cs" />
-     <Compile Include="Assets\Scripts\speed2.cs" />
-     <Compile Include="Assets\Scripts\teachersamplesol.cs" />
+     <Compile Include="Assets\Scripts\Solar.cs" />
      <Compile Include="Assets\Scripts\Pivotspeed1.cs" />
      <Compile Include="Assets\Scripts\Sky.cs" />
      <Compile Include="Assets\Scripts\clockpivot2.cs" />
@@ -51,7 +49,8 @@
      <Compile Include="Assets\Scripts\clock.cs" />
      <Compile Include="Assets\Scripts\KeyboardPlayer.cs" />
      <Compile Include="Assets\Scripts\Joystick.cs" />
-     <Compile Include="Assets\Scripts\player.cs" />
+     <Compile Include="Assets\Scripts\Player.cs" />
+     <Compile Include="Assets\Scripts\ItemSpawner.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />

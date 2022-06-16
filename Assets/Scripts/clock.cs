@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class clock : MonoBehaviour
+public class Clock : MonoBehaviour
 {
 
     public EarthPivot hourpivot;
