@@ -39,6 +39,7 @@
      <Compile Include="Assets\Scripts\CubeSpawner.cs" />
      <Compile Include="Assets\Scripts\VirtualPivot.cs" />
      <Compile Include="Assets\Scripts\EarthPivot.cs" />
+     <Compile Include="Assets\Scripts\Player.cs" />
      <Compile Include="Assets\Scripts\VirtualPivotTest.cs" />
      <Compile Include="Assets\Scripts\ItemSpawner.cs" />
      <Compile Include="Assets\Scripts\Solar.cs" />
