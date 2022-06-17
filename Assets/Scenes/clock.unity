@@ -715,7 +715,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1583811593}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 00fac5f17a8f62b42a2f4af8cca18b3d, type: 3}
   m_Name: 
@@ -745,14 +745,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1583811593}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 40a19a2043268e347b2cdae27ace8c6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   earthPivot: {fileID: 1583811593}
   speed: 0.1
-  flag: 0
 --- !u!1 &1642867447
 GameObject:
   m_ObjectHideFlags: 0
@@ -764,6 +763,7 @@ GameObject:
   - component: {fileID: 1642867449}
   - component: {fileID: 1642867448}
   - component: {fileID: 1642867450}
+  - component: {fileID: 1642867451}
   m_Layer: 0
   m_Name: clock pivot
   m_TagString: Untagged
@@ -808,14 +808,27 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1642867447}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 40a19a2043268e347b2cdae27ace8c6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   earthPivot: {fileID: 1642867447}
   speed: 6
-  flag: 1
+--- !u!114 &1642867451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1642867447}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 072c59b40c201044cbbb9c85edbed0ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clockPivot: {fileID: 1642867447}
+  speed: 6
 --- !u!1 &1794096279
 GameObject:
   m_ObjectHideFlags: 0
