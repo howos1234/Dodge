@@ -19,8 +19,8 @@ public class Player : MonoBehaviour
         var dx = joystick.NormalizedDirection.x;
         var dz = joystick.NormalizedDirection.y;
         var pos = transform.localPosition;
-        pos.x +=dx * Time.deltaTime;
-        pos.z +=dz * Time.deltaTime;
+        pos.x +=dx * 5*Time.deltaTime;
+        pos.z +=dz * 5*Time.deltaTime;
         transform.localPosition = pos;
     }
     
